@@ -1,0 +1,17 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="main">
+  <div class="title">
+    <h3>Defoggy.AI</h3>
+  </div>
+
+  <div id="image-box">
+    <img src="{{ url_for('static', filename='/output.jpg') }}" id="image-display" />
+    <!-- <div id="pred-result" class="hidden"></div> -->
+    <!-- <svg id="loader" class="hidden" viewBox="0 0 32 32" width="32" height="32">
+      <circle id="spinner" cx="16" cy="16" r="14" fill="none"></circle>
+    </svg> -->
+  </div>
+</div>
+
+{% endblock %}
