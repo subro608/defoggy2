@@ -112,7 +112,7 @@ def np_to_base64(img_np):
 
 
 app = Flask(__name__)
-run_with_ngrok(app) 
+# run_with_ngrok(app) 
 
 def ResidualBlock(X, iter):
     
